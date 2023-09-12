@@ -149,3 +149,22 @@ footer a:hover{
     position: relative;
 }
 
+.box {
+    /* border: 1px solid black; */
+    width: 280px;
+}
+.box label {
+    /* border: 1px solid black; */
+    float: left;
+    width: 100px;
+    text-align: right;
+}
+.box input {
+    /* border: 1px solid black; */
+    float: right;
+    width: 163px;
+}
+.box textarea{
+    /* border: 1px solid black; */
+    float: right;
+}
