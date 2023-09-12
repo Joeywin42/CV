@@ -1,7 +1,23 @@
 
 body{
     margin: 20;
-    
+    font-family: 'Courier Prime', monospace
+
+}
+body h1{
+    color: rgb(9, 235, 160);
+}
+body h2{
+    color: rgb(2, 158, 145);
+}
+body hr{
+    border-width: 5px;
+    border-color: blue;
+}
+body img{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
 nav{
     display: flex;
@@ -29,3 +45,107 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+footer a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: violet;
+    text-decoration: underline; 
+}
+.intro{
+    background-color: brown;
+    padding: 3%;
+}
+.intro img{
+    position: absolute;
+    top: 8.2%;
+    right: 1%;
+}
+
+/* link colour */
+
+.detail{
+    background-color: aliceblue;
+    padding: 1%;
+    
+    
+}
+.detail a{
+    color: rgb(0, 128, 96);
+    text-decoration: none;
+}
+.detail a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#zinaida{
+    position: absolute;
+    right: 5%;
+}
+
+.class-card{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: bisque;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 5px;
+}
+.class-card img{
+    margin: 12px;
+}
+
+.threeColumn{
+    border: 2px solid black;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridList3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridList3 li{
+    border: 1px solid black;
+    margin: 1px;
+
+}
+
+.gridList3 dt{
+    border: 1px solid black;
+    margin: 1px;
+}
+.gridList3 dd{
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
+}
+.gridList{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.gridList dt{
+    border: 1px solid black;
+    margin: 1px;
+}
+.gridList dd{
+    border: 1px solid black;
+    margin: 1px;
+    padding: 6px;
+}
+.oneCol{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+    padding: 0;
+}
+.oneCol label{
+    align-items: left;
+    position: relative;
+}
+
