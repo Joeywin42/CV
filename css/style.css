@@ -22,3 +22,10 @@ nav a:hover {
     color: red;
     text-decoration: underline;
 }
+
+footer{
+    background-color: #aeaeae;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
